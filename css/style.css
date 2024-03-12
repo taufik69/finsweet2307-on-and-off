@@ -1,0 +1,394 @@
+/* ================ common css ================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+img,
+li,
+ul,
+span,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --blue-color: #1c1e53;
+  --gray-color: #f4f6fc;
+  --white-color: #ffffff;
+  --font-black-color: #282938;
+  --yellow-color: #fcd980;
+  --poppins: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--poppins);
+}
+/* ================ common css ================== */
+
+/* ================ navbar  css ================== */
+
+.customNav {
+  background: var(--blue-color);
+}
+.customItem {
+  color: #bbbbcb;
+  padding: 0 32px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.customItem:hover {
+  color: var(--white-color);
+}
+.custombtn {
+  padding: 16px 48px;
+  border-radius: 41px;
+  background-color: transparent;
+  border: none;
+  -webkit-border-radius: 41px;
+  -moz-border-radius: 41px;
+  -ms-border-radius: 41px;
+  -o-border-radius: 41px;
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid rgba(244, 246, 252, 0.3);
+}
+/* ================ navbar css ================== */
+
+/* ================ Banner css ================== */
+#bannerPart {
+  padding: 100px 0;
+  background-color: var(--blue-color);
+}
+
+.bannerLeft__title {
+  font-size: 54px;
+  color: var(--white-color);
+  font-weight: 600;
+}
+
+.bannerLeft__summary {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white-color);
+  margin-top: calc(10px - 5px);
+  opacity: 0.7;
+  line-height: 28px;
+}
+
+.viewWork {
+  color: var(--white-color);
+  padding: 12px 56px;
+  background: var(--yellow-color);
+  border-radius: 41px;
+  -webkit-border-radius: 41px;
+  -moz-border-radius: 41px;
+  -ms-border-radius: 41px;
+  -o-border-radius: 41px;
+  text-align: center;
+}
+
+.viewPrice {
+  color: var(--white-color);
+}
+/* ================ Banner css ================== */
+
+/* ================ Work part css ================== */
+
+#workPart {
+  padding: 128px 0;
+  background: var(--gray-color);
+}
+
+.workLeft__title {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--font-black-color);
+  margin-bottom: 16px;
+}
+.workLeft__summary {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--font-black-color);
+  margin-bottom: 16px;
+  max-width: 405px;
+  opacity: 0.7;
+}
+.getintouch--modier {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2405f2;
+}
+
+.workItem__heading {
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--font-black-color);
+  margin: 16px 0 8px;
+}
+
+.workItem__summary {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--font-black-color);
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+/* ================ Work part css ================== */
+
+/* ================ projectPart css ================== */
+#projectPart {
+  padding: 128px 0;
+}
+
+.headLeft__hading {
+  font-size: 48px;
+  font-weight: 600;
+}
+.workView--arrow {
+  color: var(--font-black-color);
+}
+
+.secondRow {
+  margin-top: 64px;
+}
+
+.projectBottomLeft {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.projectBottomLeft:hover .overlay {
+  left: 0;
+}
+.overlay {
+  position: absolute;
+  background-image: linear-gradient(
+    0deg,
+    rgb(28, 30, 83),
+    rgba(28, 30, 83, 0.42) 58.71%
+  );
+  left: -48%;
+  top: 0;
+  height: 100%;
+  width: 48%;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.projectRight {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.projectRight:hover .overlay--one {
+  left: 0;
+}
+
+.projectRight--secondITem:hover .overlay--two {
+  top: 0;
+}
+
+.overlay--one {
+  left: 100%;
+}
+
+.overlay--two {
+  left: 0;
+  top: 100%;
+}
+
+.overlayContent {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  row-gap: 40px;
+  padding: 0px 0px 78px 40px;
+}
+
+.overlayContent--modifier {
+  row-gap: 20px;
+  padding: 0px 0px 30px 40px;
+}
+/* ================ projectPart css ================== */
+
+/* ================ product Part css ================== */
+#productPart {
+  padding: 128px 0;
+  background: #f4f6fc;
+}
+
+.productItem {
+  background: #fff;
+  padding: 60px 40px;
+}
+/* ================ product Part css ================== */
+
+/* ================ About Part css ================== */
+#aboutPart {
+  padding: 128px 0;
+  background-color: #f9fbfd;
+}
+
+.review {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+/* ================ About Part css ================== */
+
+/* ================ About Part css ================== */
+#faqPart {
+  padding: 40px 0;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "+";
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "-";
+  background-image: none;
+  transform-origin: center;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+}
+/* ================ About Part css ================== */
+/* ================ inquaryPart Part css ================== */
+#inquaryPart {
+  padding: 40px 0;
+}
+
+.inquaryLeft {
+  background: url(../images/inquary.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.inquaryLeft::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(28, 30, 83, 0.5);
+  z-index: -1;
+}
+
+.inquaryContent {
+  margin-top: 100px;
+  max-width: 464px;
+  color: white;
+  padding-bottom: 238px;
+}
+
+.inquarRight {
+  background-color: #1c1e53;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inquarRightContent {
+  color: white;
+  max-width: 432px;
+}
+
+.btn-check:focus + .btn-warning,
+.btn-warning:focus {
+  box-shadow: none;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none;
+}
+
+.form-control {
+  color: var(--white-color) !important;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 2px solid rgba(255, 255, 255, 0.54);
+}
+.form-control:focus {
+  color: #212529;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.54);
+  outline: none;
+  box-shadow: none;
+}
+/* ================ inquaryPart Part css ================== */
+
+/* ================ blogPart Part css ================== */
+#blogPart {
+  padding: 50px 0;
+}
+/* ================ blogPart Part css ================== */
+
+/* ================ footerPart Part css ================== */
+#footerPart {
+  padding: 100px 0 0;
+  background-color: var(--blue-color);
+}
+
+.footerLeftBottom {
+  background-color: var(--yellow-color);
+  padding: 18px 10px;
+}
+/* ================ footerPart Part css ================== */

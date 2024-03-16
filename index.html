@@ -56,6 +56,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/Responsive.css" />
 
     <title>Finsweet</title>
   </head>
@@ -124,12 +125,12 @@
                 ultricies nec dolor sit amet, scelerisque cursus purus.
               </p>
               <div class="row align-items-center mt-5">
-                <div class="col-lg-5">
+                <div class="col-lg-7 col-xl-6">
                   <div>
                     <p class="viewWork">View our work</p>
                   </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                   <div>
                     <p class="viewPrice">
                       View Pricing
@@ -377,10 +378,12 @@
     <section id="productPart">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-4">
+          <div class="col-lg-6">
             <div class="productTop text-center">
-              <h4>Features</h4>
-              <h2>Design that solves problems, one product at a time</h2>
+              <h4 class="productTop__tag">Features</h4>
+              <h2 class="productTop__title">
+                Design that solves problems, one product at a time
+              </h2>
             </div>
           </div>
         </div>
@@ -388,9 +391,9 @@
         <div class="row gy-4 mt-4">
           <div class="col-lg-4">
             <div class="productItem">
-              <i class="fa-sharp fa-solid fa-alien"></i>
-              <h3>Uses Client First</h3>
-              <p>
+              <i class="fa-sharp fa-solid fa-alien productItem__icons"></i>
+              <h3 class="productItem__tilte">Uses Client First</h3>
+              <p class="productItem__summary">
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                 aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
                 aliquam sed mi.
@@ -400,9 +403,9 @@
 
           <div class="col-lg-4">
             <div class="productItem">
-              <i class="fa-sharp fa-solid fa-alien"></i>
-              <h3>Uses Client First</h3>
-              <p>
+              <i class="fa-sharp fa-solid fa-alien productItem__icons"></i>
+              <h3 class="productItem__tilte">Uses Client First</h3>
+              <p class="productItem__summary">
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                 aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
                 aliquam sed mi.
@@ -412,9 +415,9 @@
 
           <div class="col-lg-4">
             <div class="productItem">
-              <i class="fa-sharp fa-solid fa-alien"></i>
-              <h3>Uses Client First</h3>
-              <p>
+              <i class="fa-sharp fa-solid fa-alien productItem__icons"></i>
+              <h3 class="productItem__tilte">Uses Client First</h3>
+              <p class="productItem__summary">
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                 aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
                 aliquam sed mi.
@@ -424,9 +427,9 @@
 
           <div class="col-lg-4">
             <div class="productItem">
-              <i class="fa-sharp fa-solid fa-alien"></i>
-              <h3>Uses Client First</h3>
-              <p>
+              <i class="fa-sharp fa-solid fa-alien productItem__icons"></i>
+              <h3 class="productItem__tilte">Uses Client First</h3>
+              <p class="productItem__summary">
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                 aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
                 aliquam sed mi.
@@ -436,9 +439,9 @@
 
           <div class="col-lg-4">
             <div class="productItem">
-              <i class="fa-sharp fa-solid fa-alien"></i>
-              <h3>Uses Client First</h3>
-              <p>
+              <i class="fa-sharp fa-solid fa-alien productItem__icons"></i>
+              <h3 class="productItem__tilte">Uses Client First</h3>
+              <p class="productItem__summary">
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                 aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
                 aliquam sed mi.
@@ -448,9 +451,9 @@
 
           <div class="col-lg-4">
             <div class="productItem">
-              <i class="fa-sharp fa-solid fa-alien"></i>
-              <h3>Uses Client First</h3>
-              <p>
+              <i class="fa-sharp fa-solid fa-alien productItem__icons"></i>
+              <h3 class="productItem__tilte">Uses Client First</h3>
+              <p class="productItem__summary">
                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit
                 aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
                 aliquam sed mi.
@@ -466,17 +469,17 @@
     <section id="aboutPart">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-lg-3">
+          <div class="col-lg-4">
             <div class="aboutLeft">
-              <h3>What our clients say about us</h3>
-              <p>
+              <h3 class="aboutLeft__tilte">What our clients say about us</h3>
+              <p class="aboutLeft__detais">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
               </p>
             </div>
           </div>
           <div class="col-lg-7">
             <div class="aboutRight">
-              <h3>
+              <h3 class="aboutRight__description">
                 "The best agency we’ve worked with so far. They understand our
                 product and are able to add new features with a great focus."
               </h3>
@@ -487,8 +490,8 @@
                   </picture>
                 </div>
                 <div class="reviewRight">
-                  <h3>Jenny Wilson</h3>
-                  <p>Vice President</p>
+                  <h3 class="reviewRight__name">Jenny Wilson</h3>
+                  <p class="reviewRight__designation">Vice President</p>
                 </div>
               </div>
             </div>
@@ -670,7 +673,9 @@
           <div class="col-lg-6">
             <div class="inquaryLeft">
               <div class="inquaryContent">
-                <h2>Building stellar websites for early startups</h2>
+                <h2 class="inquaryContent__title">
+                  Building stellar websites for early startups
+                </h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -758,18 +763,18 @@
                 />
               </picture>
 
-              <span> 19 Jan 2022 </span>
-              <h4>
+              <span class="blogBottomItem__Date"> 19 Jan 2022 </span>
+              <h4 class="blogBottomItem__shortDetails">
                 How one Webflow user grew his single person consultancy from
                 $0-100K in 14 months
               </h4>
 
-              <p>
+              <p class="blogBottomItem__details">
                 See how pivoting to Webflow changed one person’s sales strategy
                 and allowed him to attract
               </p>
 
-              <a href="#"
+              <a href="#" class="blogBottomItem__readmore"
                 >Read More
                 <i
                   class="fa-sharp fa-light fa-arrow-right-long fa-beat"
@@ -789,18 +794,18 @@
                 />
               </picture>
 
-              <span> 19 Jan 2022 </span>
-              <h4>
+              <span class="blogBottomItem__Date"> 19 Jan 2022 </span>
+              <h4 class="blogBottomItem__shortDetails">
                 How one Webflow user grew his single person consultancy from
                 $0-100K in 14 months
               </h4>
 
-              <p>
+              <p class="blogBottomItem__details">
                 See how pivoting to Webflow changed one person’s sales strategy
                 and allowed him to attract
               </p>
 
-              <a href="#"
+              <a href="#" class="blogBottomItem__readmore"
                 >Read More
                 <i
                   class="fa-sharp fa-light fa-arrow-right-long fa-beat"
@@ -820,18 +825,18 @@
                 />
               </picture>
 
-              <span> 19 Jan 2022 </span>
-              <h4>
+              <span class="blogBottomItem__Date"> 19 Jan 2022 </span>
+              <h4 class="blogBottomItem__shortDetails">
                 How one Webflow user grew his single person consultancy from
                 $0-100K in 14 months
               </h4>
 
-              <p>
+              <p class="blogBottomItem__details">
                 See how pivoting to Webflow changed one person’s sales strategy
                 and allowed him to attract
               </p>
 
-              <a href="#"
+              <a href="#" class="blogBottomItem__readmore"
                 >Read More
                 <i
                   class="fa-sharp fa-light fa-arrow-right-long fa-beat"
@@ -850,11 +855,15 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5">
-            <div class="footerTopLeft text-white">
+            <div class="footerTopLeft">
               <picture>
-                <img src="./images/Logo.png" alt="/images/Logo.png" />
+                <img
+                  src="./images/Logo.png"
+                  alt="/images/Logo.png"
+                  class="footerLogo"
+                />
               </picture>
-              <h4>
+              <h4 class="footerTopLeft__shortdetails">
                 We are always open to discuss your project and improve your
                 online presence.
               </h4>
@@ -862,16 +871,22 @@
               <div class="row footerLeftBottom">
                 <div class="col-lg-5">
                   <div class="footerTopBottom">
-                    <h2>Email me at</h2>
-                    <a href="mailto: contact@website.com">
+                    <h2 class="footerTopBottom__contact">Email me at</h2>
+                    <a
+                      href="mailto: contact@website.com"
+                      class="footerTopBottom__medium"
+                    >
                       contact@website.com</a
                     >
                   </div>
                 </div>
                 <div class="col-lg-5">
                   <div class="footerTopBottom">
-                    <h2>Email me at</h2>
-                    <a href="mailto: contact@website.com">
+                    <h2 class="footerTopBottom__contact">Email me at</h2>
+                    <a
+                      href="mailto: contact@website.com"
+                      class="footerTopBottom__medium"
+                    >
                       contact@website.com</a
                     >
                   </div>
@@ -880,17 +895,17 @@
             </div>
           </div>
           <div class="col-lg-4 offset-lg-1">
-            <div class="footerTopRight text-warning">
-              <h2>Lets Talk!</h2>
-              <p>
+            <div class="footerTopRight">
+              <h2 class="footerTopRight__title">Lets Talk!</h2>
+              <p class="footerTopRight__details">
                 We are always open to discuss your project, improve your online
                 presence and help with your UX/UI design challenges.
               </p>
               <div class="icons">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
               </div>
             </div>
           </div>

@@ -251,12 +251,94 @@ body {
   background: #fff;
   padding: 60px 40px;
 }
+
+.productTop__tag {
+  color: var(--font-black-color);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--poppins);
+}
+.productTop__title {
+  color: var(--font-black-color);
+  font-size: 48px;
+  font-weight: 600;
+  font-family: var(--poppins);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(59, 59, 59);
+}
+
+.productItem__icons {
+  color: #2405f2;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.productItem__tilte {
+  color: var(--font-black-color);
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--poppins);
+  margin-bottom: 12px;
+}
+
+.productItem__summary {
+  color: var(--font-black-color);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--poppins);
+  line-height: 28px;
+  opacity: 0.7;
+}
 /* ================ product Part css ================== */
 
 /* ================ About Part css ================== */
 #aboutPart {
   padding: 128px 0;
   background-color: #f9fbfd;
+}
+.aboutLeft {
+  padding-right: 30px;
+}
+
+.aboutLeft__tilte {
+  color: var(--font-black-color);
+  font-size: 38px;
+  font-weight: 600;
+  font-family: var(--poppins);
+  line-height: 56px;
+  margin-bottom: 16px;
+}
+
+.aboutLeft__detais {
+  color: var(--font-black-color);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--poppins);
+  opacity: 0.7;
+}
+
+.aboutRight__description {
+  color: var(--font-black-color);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  font-family: var(--poppins);
+}
+
+.reviewRight__name {
+  color: var(--font-black-color);
+  font-size: 18px;
+  font-weight: 500;
+
+  font-family: var(--poppins);
+}
+
+.reviewRight__designation {
+  color: var(--font-black-color);
+  font-size: 12px;
+  font-weight: 500;
+
+  font-family: var(--poppins);
 }
 
 .review {
@@ -379,6 +461,48 @@ body {
 #blogPart {
   padding: 50px 0;
 }
+
+.blogTop__title {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: var(--poppins);
+  margin-bottom: 64px;
+}
+
+.blogBottomItem__Date {
+  color: var(--font-black-color);
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.7;
+  margin: 40px 0 16px;
+  display: inline-block;
+  font-family: var(--poppins);
+}
+
+.blogBottomItem__shortDetails {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--poppins);
+  color: var(--font-black-color);
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.blogBottomItem__details {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--poppins);
+  opacity: 0.7;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.blogBottomItem__readmore {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--poppins);
+  color: var(--font-black-color);
+}
 /* ================ blogPart Part css ================== */
 
 /* ================ footerPart Part css ================== */
@@ -387,6 +511,65 @@ body {
   background-color: var(--blue-color);
 }
 
+.footerLogo {
+  margin-bottom: 22px;
+}
+
+.footerTopLeft__shortdetails {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--poppins);
+  color: var(--white-color);
+  opacity: 0.8;
+  margin-bottom: 86px;
+}
+
+.footerTopBottom__contact {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--poppins);
+  color: var(--font-black-color);
+}
+
+.footerTopBottom__medium {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--poppins);
+  color: var(--font-black-color);
+}
+
+.footerTopRight__title {
+  font-size: 48px;
+  font-weight: 500;
+  font-family: var(--poppins);
+  color: var(--white-color);
+  margin-bottom: 14px;
+}
+
+.footerTopRight__details {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--poppins);
+  line-height: 28px;
+  opacity: 0.7;
+  color: var(--white-color);
+  margin-bottom: 28px;
+}
+
+.icons a i[class="fa-brands fa-facebook-f"] {
+  width: 40px;
+  height: 40px;
+  background: var(--yellow-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: var(--white-color);
+}
 .footerLeftBottom {
   background-color: var(--yellow-color);
   padding: 18px 10px;

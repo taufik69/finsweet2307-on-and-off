@@ -1,1 +1,5 @@
-@import "../Responsive/largeDevice.css";
+/*  ================== importing all device ================ */
+@import "../AllDevice/LargeDevice.responsive.css";
+@import "../AllDevice/MediumDevice.responsive.css";
+
+/*  ================== importing all device ================ */

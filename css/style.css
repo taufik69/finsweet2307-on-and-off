@@ -575,3 +575,12 @@ body {
   padding: 18px 10px;
 }
 /* ================ footerPart Part css ================== */
+/* ================ footerPart Part css ================== */
+.footerNav {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--poppins);
+  color: var(--font-black-color);
+  padding: 0 10px;
+}
+/* ================ footerPart Part css ================== */

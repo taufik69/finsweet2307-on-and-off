@@ -1,0 +1,68 @@
+/* =============================== Medium device Responsive  ============================= */
+
+@media (max-width: 991.98px) {
+  :root {
+    --blue-color: #1c1e53;
+    --gray-color: #f4f6fc;
+    --white-color: #ffffff;
+    --font-black-color: #282938;
+    --yellow-color: #fcd980;
+    --poppins: "Poppins", sans-serif;
+  }
+
+  /* ================= Header part responsive ================ */
+  .navbar-toggler {
+    background-color: var(--white-color);
+  }
+
+  .BarIcon {
+    color: #fcd980;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+  }
+
+  .customul {
+    margin-top: 36px;
+  }
+
+  .customItem {
+    text-align: center;
+    display: block;
+    padding: 8px 23px;
+    background: var(--yellow-color);
+    margin: 10px 0;
+    border-radius: 10px;
+    color: var(--blue-color);
+    text-transform: capitalize;
+  }
+
+  .custombtn {
+    width: 100%;
+  }
+  /* ================= Header part responsive ================ */
+
+  /* ================= BAnner part responsive ================ */
+  .bannerLeft__title {
+    font-size: 49px;
+    text-align-last: center;
+  }
+  .bannerLeft__summary {
+    margin-top: 30px;
+    text-align-last: center;
+  }
+
+  .viewPriceMain {
+    display: flex;
+    justify-content: center;
+  }
+  /* ================= BAnner part responsive ================ */
+
+  /* ================= Work part responsive ================ */
+  .workLeft {
+    text-align: center;
+  }
+  /* ================= Work part responsive ================ */
+}
+/* ================= Header part responsive ================ */

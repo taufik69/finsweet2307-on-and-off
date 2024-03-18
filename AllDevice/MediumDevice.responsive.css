@@ -63,6 +63,81 @@
   .workLeft {
     text-align: center;
   }
+
+  .workLeft__summary {
+    margin: 0 auto;
+  }
+
+  .getintouch--modier {
+    margin: 33px 0;
+  }
+
+  .workItem {
+    text-align: center;
+    background: var(--white-color);
+    padding: 20px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
   /* ================= Work part responsive ================ */
+
+  /* ================= Project part responsive ================ */
+  .headLeft__hading {
+    text-align: center;
+  }
+
+  .productItem {
+    text-align: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  /* ================= Project part responsive ================ */
+
+  /* ================= About part responsive ================ */
+  .aboutLeft {
+    text-align: center;
+  }
+
+  .aboutRight__description {
+    text-align: justify;
+    text-align-last: center;
+    margin-top: 20px;
+  }
+
+  .review {
+    justify-content: center;
+  }
+  /* ================= About part responsive ================ */
+
+  /* ================= Faq part responsive ================ */
+  .faqLeft {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .inquaryContent {
+    padding-bottom: 143px;
+  }
+
+  .inquarRight {
+    padding: 53px 0;
+  }
+
+  .blogBottomItem {
+    margin-bottom: 20px;
+  }
+
+  .footerLeftBottom {
+    margin-bottom: 25px;
+  }
+
+  /* ================= Faq part responsive ================ */
 }
 /* ================= Header part responsive ================ */

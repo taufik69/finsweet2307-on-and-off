@@ -1,1 +1,4 @@
-@import "../Responsive/largeDevice.css";
+@import "../Responsive/largeDevice.responsive.css";
+@import "../Responsive/MediumDevice.responsive.css";
+@import "../Responsive/SmallDevice.responsive.css";
+@import "../Responsive/ExtraSmallDevice.responsive.css";

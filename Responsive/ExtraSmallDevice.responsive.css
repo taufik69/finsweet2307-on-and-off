@@ -1,0 +1,36 @@
+/* ============================== Extra Small Device responsice css ======================== */
+@media (max-width: 575.98px) {
+  /* ============== Header   part ============== */
+  .bannerLeft__title {
+    font-size: 31px;
+  }
+
+  .workLeft__summary {
+    font-size: 19px;
+  }
+
+  .workItem__summary {
+    padding: 0 24px;
+  }
+
+  .headLeft__hading {
+    font-size: 34px;
+  }
+
+  .aboutRight__description {
+    font-size: 21px;
+    text-align: center;
+    line-height: 31px;
+  }
+
+  .blogTop__title {
+    text-align: center;
+  }
+
+  .footerTopBottom {
+    margin-bottom: 20px;
+  }
+  /* ============== Header   part ============== */
+}
+
+/* ============================== Extra Small Device responsice css ======================== */

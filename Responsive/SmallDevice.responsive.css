@@ -1,0 +1,17 @@
+/* ============================== Small Device responsice css ======================== */
+@media (max-width: 767.98px) {
+  /* ============== Header   part ============== */
+  .bannerLeft__title {
+    font-size: 41px;
+    margin-bottom: 10px;
+    text-align-last: center;
+  }
+
+  .aboutRight__description {
+    font-size: 26px;
+    text-align-last: center;
+  }
+  /* ============== Header   part ============== */
+}
+
+/* ============================== Small  Device responsice css ======================== */

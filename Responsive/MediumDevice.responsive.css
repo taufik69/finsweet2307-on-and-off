@@ -1,0 +1,158 @@
+/* ============================== Medium  Device responsice css ======================== */
+@media (max-width: 991.98px) {
+  /* ============== Header   part ============== */
+  .navbar-toggler {
+    background-color: var(--white-color);
+  }
+
+  [class="fa-duotone fa-bars"] {
+    font-size: 25px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25rem var(--gray-color);
+  }
+
+  .customItem {
+    padding: 9px 20px;
+    text-align: center;
+    display: block;
+    background: var(--yellow-color);
+    margin: 10px 0;
+    border-radius: 15px;
+    color: var(--white-color);
+  }
+
+  .navbar-nav {
+    margin: 20px 0;
+  }
+
+  .custombtn {
+    margin-top: 20px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  /* ============== Header   part ============== */
+
+  /* ============== Banner  part responsive ============== */
+  .bannerLeft__title {
+    font-size: 49px;
+    margin-bottom: 10px;
+    text-align-last: center;
+  }
+
+  .bannerLeft__summary {
+    text-align-last: center;
+  }
+
+  .viewPrice {
+    text-align: center;
+    margin: 20px 0;
+  }
+  /* ============== Banner   part responsive  ============== */
+
+  /* ============== Work   part responsive  ============== */
+  .workLeft {
+    text-align: center;
+  }
+
+  .workLeft__summary {
+    max-width: 100%;
+    font-size: 20px;
+  }
+
+  .workItem {
+    text-align: center;
+    background: var(--white-color);
+    padding: 54px 0px;
+    border-radius: 15px;
+  }
+
+  .workItem__summary {
+    font-size: 23px;
+    text-align-last: center;
+    line-height: 36px;
+  }
+  /* ============== Work   part responsive  ============== */
+  /* ============== project   part responsive  ============== */
+  #projectPart {
+    padding: 77px 0;
+  }
+  .headLeft__hading {
+    text-align: center;
+  }
+
+  .productItem {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+  /* ============== project   part responsive  ============== */
+
+  /* ============== About    part responsive  ============== */
+  #aboutPart {
+    padding: 61px 0;
+  }
+  .aboutLeft__tilte {
+    text-align: center;
+  }
+
+  .aboutLeft__detais {
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .aboutRight__description {
+    margin-top: 16px;
+  }
+
+  .review {
+    justify-content: center;
+  }
+  /* ============== About   part responsive  ============== */
+
+  /* ============== Faq   part responsive  ============== */
+  .faqLeft {
+    text-align: center;
+    padding: 28px 0;
+  }
+
+  .inquaryContent {
+    padding-bottom: 120px;
+  }
+
+  .inquarRightContent {
+    padding: 65px 0;
+  }
+  /* ============== Faq   part responsive  ============== */
+  /* ============== Blog   part responsive  ============== */
+  .blogBottomItem {
+    margin-bottom: 20px;
+  }
+  /* ============== Blog  part responsive  ============== */
+
+  /* ============== footer  part responsive  ============== */
+  .footerTopLeft__shortdetails {
+    margin-bottom: 38px;
+  }
+
+  .footerTopRight__title {
+    margin-top: 20px;
+  }
+  /* ============== footer  part responsive  ============== */
+
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.55);
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    background: var(--blue-color);
+    margin: 10px 0;
+    border-radius: 15px;
+    color: var(--white-color);
+  }
+}
+/* ============================== Medium Device responsice css ======================== */

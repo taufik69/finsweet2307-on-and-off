@@ -1,0 +1,27 @@
+/* =============================== Medium device Responsive  ============================= */
+@media (max-width: 767.98px) {
+  /* ================= Header part responsive ================ */
+  .bannerLeft__title {
+    font-size: 41px;
+    text-align-last: center;
+  }
+  /* ================= Header part responsive ================ */
+  /* ================= Work part responsive ================ */
+  .workItem__summary {
+    padding: 0 10px;
+  }
+  /* ================= Work part responsive ================ */
+  /* ================= Product part responsive ================ */
+  .productTop__title {
+    font-size: 44px;
+  }
+
+  /* ================= Product part responsive ================ */
+
+  /* ================= faqLeft part responsive ================ */
+  .faqLeft {
+    margin-bottom: 20px;
+  }
+  /* ================= faqLeft part responsive ================ */
+}
+/* =============================== Medium device Responsive  ============================= */

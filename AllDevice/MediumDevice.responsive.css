@@ -63,6 +63,113 @@
   .workLeft {
     text-align: center;
   }
+
+  .workLeft__summary {
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .getintouch--modier {
+    margin-bottom: 26px;
+  }
+
+  .workItem {
+    text-align: center;
+    background: var(--white-color);
+    padding: 43px 0;
+    border-radius: 15px;
+  }
   /* ================= Work part responsive ================ */
+
+  /* ================= Project part responsive ================ */
+
+  #projectPart {
+    padding: 37px 0;
+  }
+  .headLeft__hading {
+    text-align: center;
+  }
+  .headRight {
+    display: flex;
+    justify-content: center;
+  }
+  /* ================= project part responsive ================ */
+
+  /* ================= product part responsive ================ */
+  .productItem {
+    text-align: center;
+    border-radius: 21px;
+  }
+
+  .aboutLeft {
+    text-align: center;
+  }
+
+  .aboutLeft__detais {
+    margin-bottom: 12px;
+  }
+
+  .aboutRight__description {
+    text-align: center;
+  }
+
+  .review {
+    justify-content: center;
+  }
+  /* ================= product part responsive ================ */
+
+  /* ================= Faq part responsive ================ */
+  .faqLeft {
+    text-align: center;
+  }
+
+  .inquaryContent {
+    padding-bottom: 118px;
+  }
+
+  .inquaryContent__title {
+    text-align: center;
+  }
+
+  .inquarRightContent {
+    padding: 45px 0;
+    text-align: center;
+  }
+
+  /* ================= Faq part responsive ================ */
+
+  /* ================= Blog  part responsive ================ */
+  .blogTop__title {
+    text-align: center;
+  }
+
+  .blogBottomItem {
+    margin-bottom: 40px;
+  }
+  /* ================= Blog part responsive ================ */
+
+  /* ================= Footer part responsive ================ */
+  .footerTopLeft__shortdetails {
+    margin-bottom: 32px;
+  }
+
+  .footerTopRight__title {
+    margin-top: 21px;
+  }
+  /* ================= Footer part responsive ================ */
+
+  .footerNav {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--white-color);
+    padding: 8px 10px;
+    background: var(--blue-color);
+    margin: 10px 0;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+  }
 }
 /* ================= Header part responsive ================ */
+/* =============================== Medium device Responsive  ============================= */

@@ -1,0 +1,17 @@
+@import "./AboutAlldevice/LargeDevice.responsive.css";
+@import "./AboutAlldevice/MediumDevice.responsive.css";
+@import "./AboutAlldevice/SmallDevice.responsive.css";
+@import "./AboutAlldevice/ExtraSmallDevice.responsive.css";
+
+/*
+    @import line must be close in a semicolo --> ; statement
+    for example @import "helloWorld.css";<---
+
+    step 2: 
+    make sure your responsive layer going to up to bottom
+    it must be follow the order otherwist it does not work reposive
+    1) Large Device
+    2) Medium Device
+    3) Small Device 
+    4 ) Extra Small device
+*/

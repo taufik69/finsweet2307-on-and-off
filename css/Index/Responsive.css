@@ -1,7 +1,7 @@
-@import "./ContactAllDevice/LargeDevice.responsive.css";
-@import "./ContactAllDevice/MediumDevice.responsive.css";
-@import "./ContactAllDevice/SmallDevice.responsive.css";
-@import "./ContactAllDevice/ExtraSmallDevice.responsive.css";
+@import "./IndexAllDevice/LargeDevice.responsive.css";
+@import "./IndexAllDevice/MediumDevice.responsive.css";
+@import "./IndexAllDevice/SmallDevice.responsive.css";
+@import "./IndexAllDevice/ExtraSmallDevice.responsive.css";
 
 /*
     @import line must be close in a semicolo --> ; statement
